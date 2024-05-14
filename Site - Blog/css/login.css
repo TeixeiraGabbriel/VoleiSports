@@ -9,7 +9,7 @@ body {
     background: #f12711;
     background: -webkit-linear-gradient(to right, #2ceab1, #46f661); 
     background: linear-gradient(to right, #41d739, #30d892); color: black;
-    background-image: url(img_login.webp);
+    background-image: url(../imagens/img_login.webp);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
