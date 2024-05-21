@@ -8,9 +8,9 @@ function buscarAquariosPorEmpresa(empresaId) {
   return database.executar(instrucaoSql);
 }
 
-function cadastrar(empresaId, descricao) {
+function cadastrar(descricao) {
   
-  var instrucaoSql = `INSERT INTO (descricao, fk_empresa) aquario VALUES (${descricao}, ${empresaId})`;
+  var instrucaoSql = `INSERT INTO (descricao, fk_interacao) aquario VALUES (${descricao}, ${fk_interacao})`;
 
   console.log("Executando a instrução SQL: \n" + instrucaoSql);
   return database.executar(instrucaoSql);

@@ -116,11 +116,11 @@ body {
 }
 
 .dash {
-  width: 80%;
+  width: 85%;
   position: relative;
   top: 0;
-  left: 20%;
-  background-color: #161618;
+  left: 15%;
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
   height: 100vh;
   overflow: auto;
 }
@@ -329,8 +329,8 @@ canvas {
 
 .janela {
   display: flex;
-  /* width: 100vw; */
-}
+  width: 100%;
+  }
 
 .header-left a {
   text-decoration: none;
@@ -343,13 +343,13 @@ canvas {
   left: 0;
   z-index: 999;
   height: 100vh;
-  width: 20%;
+  width: 16%;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
-  border-right: 3px solid #32b9cd;
-  background-color: #212124;
+  border-right: 3px solid #325bcd;
+  background-color: rgba(2,0,36,1) ;
 }
 
 .dash-right {
@@ -385,25 +385,33 @@ canvas {
 }
 
 .btn-nav {
-  width: 40%;
   color: white;
-  background-color: #e6005a;
   border-radius: 5px;
   text-align: center;
   padding: 2% 5%;
+  margin-top: 10px;
+  background-color: #32b9cd;
+  width: 150px;
+  height: 30px;
+  border: solid 2px #1e4497;
+  box-shadow: 5px 5px 5px rgb(104, 118, 129);
 }
 
 .btn-nav-white {
-  width: 40%;
-  background-color: white;
-  border: 3px solid #e6005a;
+  color: white;
   border-radius: 5px;
   text-align: center;
   padding: 2% 5%;
+  margin-top: 10px;
+  background-color: #32b9cd;
+  width: 150px;
+  height: 30px;
+  border: solid 2px #1e4497;
+  box-shadow: 5px 5px 5px rgb(104, 118, 129);
 }
 
 .btn-nav-white h3 {
-  color: #e6005a;
+  color: #ffffff;
   padding: 0;
   margin: 0;
 }
@@ -415,14 +423,53 @@ canvas {
 }
 
 .btn-logout {
-  margin: 0;
-  padding: 0;
-  width: 20%;
-  background-color: #32b9cd;
   color: white;
-  border-radius: 10px;
+  border-radius: 5px;
   text-align: center;
-  padding: 10px 15px;
-  margin-bottom: 100px;
+  padding: 2% 5%;
+  margin-top: 100px;
+  background-color: #32b9cd;
+  width: 150px;
+  height: 30px;
+  border: solid 2px #1e4497;
+  box-shadow: 5px 5px 5px rgb(104, 118, 129);
+  margin-bottom: 18px;
   cursor: pointer;
+}
+
+.quadro_pai {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  margin-top: 190px;
+}
+
+.quadro_pai img{
+  width: 200px;
+  height: 200px;
+  border-radius: 5px;
+}
+
+.quadro_loja {
+  width: 200px;
+  height: 200px;
+  border: solid black 2px;
+  border-radius: 5px;
+  box-shadow: 10px 5px 5px rgb(124, 176, 212);
+}
+
+.quadro_haikyuu {
+  width: 200px;
+  height: 200px;
+  border: solid black 2px;
+  border-radius: 5px;
+  box-shadow: 10px 5px 5px rgb(143, 153, 247);
+}
+
+.quadro_jogo {
+  width: 200px;
+  height: 200px;
+  border: solid black 2px;
+  border-radius: 5px;
+  box-shadow: 10px 5px 5px rgb(27, 38, 46);
 }
