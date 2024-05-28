@@ -17,12 +17,6 @@ CREATE TABLE usuarioCadastro (
 );
 select* from usuarioCadastro;
 
-CREATE TABLE usuarioLogin (
-	id INT PRIMARY KEY AUTO_INCREMENT,
-	nome VARCHAR(50)
-);
-select* from usuarioLogin;
-
 
 CREATE TABLE interacao (
 	id INT PRIMARY KEY AUTO_INCREMENT,
