@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VoleiSports | Avisos</title>
+    <title>VoleiSports | Interação</title>
 
     <link rel="stylesheet" href="./../css/dashboards.css">
     <link rel="stylesheet" href="./../css/estilo.css" />
@@ -21,10 +21,11 @@
 
 <body onload="validarSessao(), atualizarFeed()" style="background-color: #161618;">
 
-    <div class="janela">
+    <div class="janela-mural">
 
 
         <div class="header-left">
+
             <h1>VoleiSports</h1>
 
             <div class="hello">
@@ -32,15 +33,9 @@
             </div>
 
             <div class="btn-nav-white">
-                <a href="./cards.html">
+                <a href="cards.html">
                     <h3>Gráfico de acesso</h3>
                 </a>
-            </div>
-
-            <div class="btn-nav">
-
-                <h3>Interação</h3>
-
             </div>
 
             <div class="btn-nav-white">
@@ -49,19 +44,20 @@
                 </a>
             </div>
 
+            <div class="btn-nav">
+                <h3>Interação</h3>
+            </div>
+
             <div class="btn-logout" onclick="limparSessao()">
                 <h3>Sair</h3>
             </div>
 
         </div>
-
-        <div class="dash-right-mural">
-
-
+            <div class="div-comentarios">
                 <div id="alerta">
                 </div>
                 <div class="container">
-                    <h1>Publicar um aviso</h1>
+                    <h1>PUBLICAR COMENTÁRIO</h1>
                     <div class="div-form">
                         <form id="form_postagem" method="post" onsubmit="return publicar()">
                             <label>
@@ -74,22 +70,22 @@
                             <label>
                                 Descrição (máximo de 250 caracteres):
                                 <br>
-                                <textarea name="descricao" id="textarea_descricao" maxlength="250" rows="5"></textarea>
+                                <input name="descricao" id="input_descricao" maxlength="250" rows="5"></input>
                             </label>
                             <br>
                             <br>
                             <button>Enviar</button>
                         </form>
                     </div>
-                    <h1>Mural de Avisos</h1>
+                    <h1>COMENTÁRIOS</h1>
                     <div class="div-results">
                         <div id="feed_container" class="feed-container">
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
 
+    </div>
 
 
 

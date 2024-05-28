@@ -9,28 +9,29 @@ comandos para mysql server
 CREATE DATABASE VoleiSports;
 USE VoleiSports;
 
-CREATE TABLE usuario (
+CREATE TABLE usuarioCadastro (
 	id INT PRIMARY KEY AUTO_INCREMENT,
 	nome VARCHAR(50),
 	email VARCHAR(50),
 	senha VARCHAR(50)
 );
+select* from usuarioCadastro;
+
+CREATE TABLE usuarioLogin (
+	id INT PRIMARY KEY AUTO_INCREMENT,
+	nome VARCHAR(50)
+);
+select* from usuarioLogin;
+
 
 CREATE TABLE interacao (
 	id INT PRIMARY KEY AUTO_INCREMENT,
 	titulo VARCHAR(100),
 	descricao VARCHAR(200),
 	fk_usuario INT,
-	FOREIGN KEY (fk_usuario) REFERENCES usuario(id)
+	FOREIGN KEY (fk_usuario) REFERENCES usuarioCadastro(id)
 );
-
-create table resposta (
-	id INT PRIMARY KEY AUTO_INCREMENT,
-	descricao VARCHAR(300),
-	fk_interacao INT,
-	FOREIGN KEY (fk_interacao) REFERENCES interacao(id)
-);
+select* from interacao;
 
  
-
--- DROP DATABASE VoleiSports;
+DROP DATABASE VoleiSports;
