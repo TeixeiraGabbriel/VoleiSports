@@ -28,16 +28,17 @@ body {
   background: linear-gradient(90deg, rgba(105,87,6,1) 0%, rgba(168,152,45,1) 33%, rgba(235,198,59,1) 73%);
   margin-left: auto;
   margin-right: auto;
-  margin-top: 180px;
+  margin-top: 5px;
+  margin-bottom: 5px  ;
 }
 
 .div-comentarios .container h1 {
   margin-left: 5%;
-  color: #1e4497;
+  color: #000000;
 }
 
 .div-comentarios .container label {
-  color: #1e4497;
+  color: #000000;
 }
 
 .div-comentarios .container input {
@@ -46,7 +47,7 @@ body {
 
 .div-comentarios .container button {
   background-color: #32b9cd;
-  color: #1e4497;
+  color: #000000;
   border-radius: 5px;
   width: 170px;
   height: 30px;
@@ -64,19 +65,20 @@ body {
   flex-direction: column;
   border: solid 2px #1e4497;
   background: linear-gradient(90deg, rgba(105,87,6,1) 0%, rgba(168,152,45,1) 33%, rgba(235,198,59,1) 73%);
-  margin-top: 190px;
-  height: 50vh;
+  height: 70vh;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .div-comentarios .container-edicao h1 {
   margin-left: 5%;
-  color: #1e4497;
+  color: #000000;
 }
 
 .div-comentarios .container-edicao label {
-  color: #1e4497;
+  color: #000000;
 }
 
 .div-comentarios .container-edicao input {
@@ -85,7 +87,7 @@ body {
 
 .div-comentarios .container-edicao button {
   background-color: #32b9cd;
-  color: #1e4497;
+  color: #000000;
   border-radius: 5px;
   width: 170px;
   height: 30px;
@@ -100,7 +102,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: stretch;
-  border-bottom: 3px solid #1e4497;
+  border-bottom: 3px solid #ffffff;
   padding: 20px;
 }
 
@@ -119,7 +121,7 @@ body {
   display: flex;
   justify-content: space-evenly;
   flex-direction: row;
-  margin-top: 350px;
+  margin-top: 190px;
 }
 
 .quadro_pai img{
