@@ -6,35 +6,42 @@ body {
     background-repeat: no-repeat;
 }
 
-.div_container_center {
-  display: flex;
-  position: fixed;
-  justify-content: center;
-  position: relative;
-  top: 0;
-  overflow: auto;
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
 }
 
-.div_container1 {
-  align-items: flex-start;
+.div_container_desenho {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.div_container_cards {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   border-radius: 8px;
   border: 1px solid rgb(210, 210, 210);
   color: inherit;
-  display: inline-flex;
   gap: 8px;
   flex-direction: column;
   padding: 16px;
   text-decoration: none;  
   position: relative;
+  width: 250px;
 }
 
-.div_container1 img{
+.div_container_cards img{
   display: flex;
   border: solid 2px black;
-  width: 300px;
+  width: 120px;
   padding: 8px;
   margin: 0 2px 2px;
-  height: 100%;
+  height: 90%;
   border-radius: 5px;
 }
   

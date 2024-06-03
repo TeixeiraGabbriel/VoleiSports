@@ -42,19 +42,17 @@ html, body {
     position: relative;
     top: 0;
     left: 10%;
-    overflow: auto;
+    flex-wrap: wrap;
 }
 
 .div_container1 {
-    align-items: flex-start;
     border-radius: 8px;
     border: 1px solid rgb(210, 210, 210);
     color: inherit;
     display: inline-flex;
     gap: 8px;
-    height: 100%;
     flex-direction: column;
-    padding: 16px;
+    padding: 10px;
     text-decoration: none;  
     position: relative;
 }
@@ -85,23 +83,4 @@ html, body {
     background-color: #479238;
     width: 100%;
 }
-
-.div_construcao {
-    display: flex;
-    flex-direction: column; 
-    align-items: center; 
-    justify-content: center; 
-    width: 90%;
-    position: relative;
-    top: 0;
-    left: 10%;
-    overflow: auto;
-}
-
-.div_construcao img {
-    width: 500px;
-    height: 500px;
-    margin-bottom: 10px; 
-}
-
 
