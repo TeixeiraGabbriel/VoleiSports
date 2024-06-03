@@ -1,0 +1,40 @@
+/* Tela-Desenho */
+
+body {
+    background-image: url(../assets/imgs/box_comentario.gif);
+    background-size: cover; 
+    background-repeat: no-repeat;
+}
+
+.div_container_center {
+  display: flex;
+  position: fixed;
+  justify-content: center;
+  position: relative;
+  top: 0;
+  overflow: auto;
+}
+
+.div_container1 {
+  align-items: flex-start;
+  border-radius: 8px;
+  border: 1px solid rgb(210, 210, 210);
+  color: inherit;
+  display: inline-flex;
+  gap: 8px;
+  flex-direction: column;
+  padding: 16px;
+  text-decoration: none;  
+  position: relative;
+}
+
+.div_container1 img{
+  display: flex;
+  border: solid 2px black;
+  width: 300px;
+  padding: 8px;
+  margin: 0 2px 2px;
+  height: 100%;
+  border-radius: 5px;
+}
+  

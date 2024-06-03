@@ -23,7 +23,7 @@ body {
 .header {
   height: var(--tamanho-header);
   border-bottom: 2px solid #3263cd;
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  background: linear-gradient(135deg, #FFD700, #FFFFFF, #1E90FF)
 }
 
 .header .container {
@@ -139,7 +139,7 @@ body {
 .contato {
   padding: 50px;
   border-top: solid 2px #1e4497;
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  background: linear-gradient(135deg, #FFD700, #FFFFFF, #1E90FF);
 }
 
 .contato input {
@@ -159,7 +159,7 @@ body {
 /* FOOTER */
 
 .footer {
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  background: linear-gradient(135deg, #FFD700, #FFFFFF, #1E90FF);
   border-top: solid 2px #1e4497;
   height: 150px;
   color: #fff;

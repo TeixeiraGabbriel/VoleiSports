@@ -5,30 +5,44 @@
     box-sizing: border-box;
 }
 
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
 .header-left {
     position: fixed;
     top: 0;
     left: 0;
     z-index: 999;
     height: 100vh;
-    width: 16%;
+    width: 10%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: center;
     border-right: 3px solid #000000;
-    background-color: rgb(98, 98, 255);
+    background: linear-gradient(135deg, #FFD700, #FFFFFF, #1E90FF)
 }
 
 .header-left h1 {
     color: #000000;
     font-size: x-large;
     margin-top: 5px;
+    text-align: center;
   }
 
 .div_container_center {
     display: flex;
+    position: fixed;
     justify-content: center;
+    width: 90%;
+    position: relative;
+    top: 0;
+    left: 10%;
+    overflow: auto;
 }
 
 .div_container1 {
@@ -40,7 +54,6 @@
     gap: 8px;
     height: 100%;
     flex-direction: column;
-    outline-color: rgb(227, 0, 0);
     padding: 16px;
     text-decoration: none;  
     position: relative;
@@ -54,21 +67,41 @@
     margin: 0 2px 2px;
     height: 100%;
     cursor: pointer;
+    border-radius: 5px;
 }
 
 
 .div_container1 span {
-    background-color: rgba(255, 0, 0, 0.692);
+    background-color: rgba(219, 92, 92, 0.692);
     width: 100%;
 }
 
-.div_container1 p {
+.div_container1 label {
     text-decoration-line: line-through;
     width: 100%;
 }
 
 .div_preco {
-    background-color: #285c1d;
+    background-color: #479238;
     width: 100%;
 }
+
+.div_construcao {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    width: 90%;
+    position: relative;
+    top: 0;
+    left: 10%;
+    overflow: auto;
+}
+
+.div_construcao img {
+    width: 500px;
+    height: 500px;
+    margin-bottom: 10px; 
+}
+
 
