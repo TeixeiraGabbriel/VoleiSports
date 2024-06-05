@@ -13,9 +13,23 @@ CREATE TABLE usuarioCadastro (
 	id INT PRIMARY KEY AUTO_INCREMENT,
 	nome VARCHAR(50),
 	email VARCHAR(50),
-	senha VARCHAR(50)
+	senha VARCHAR(50),
+    dtCadastro TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
 );
+insert into usuarioCadastro (nome, email, senha) values
+('Gabriel', 'gabriel@sptech.school', 123456);
+
+insert into usuarioCadastro (nome, email, senha, dtCadastro) values
+('AAA', 'aa@sptech.school', 123456, '2024-06-01'),
+('BBB', 'bbb@sptech.school', 123456, '2024-06-02'),
+('CCC', 'ccc@sptech.school', 123456, '2024-06-02'),
+('DDD', 'ddd@sptech.school', 123456, '2024-06-03'),
+('EEE', 'eee@sptech.school', 123456, '2024-06-03'),
+('FFF', 'fff@sptech.school', 123456, '2024-06-03');
+
 select* from usuarioCadastro;
+SELECT date_format(quantidade.dt, '%d-%m-%Y') as 'Data_de_Cadastro', count(quantidade.dt) as Quantidade 
+from (SELECT DATE(dtCadastro) as dt from usuarioCadastro) as quantidade group by quantidade.dt order by dt;
 
 
 CREATE TABLE interacao (
@@ -27,5 +41,4 @@ CREATE TABLE interacao (
 );
 select* from interacao;
 
- 
-DROP DATABASE VoleiSports;
+-- DROP DATABASE VoleiSports;

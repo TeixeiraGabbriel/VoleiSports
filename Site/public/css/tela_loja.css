@@ -14,13 +14,13 @@ html, body {
 
 
 .header-left {
+    display: flex;
     position: fixed;
     top: 0;
     left: 0;
     z-index: 999;
     height: 100vh;
     width: 10%;
-    display: flex;
     flex-direction: column;
     justify-content: space-between;
     border-right: 3px solid #000000;
@@ -33,6 +33,17 @@ html, body {
     margin-top: 5px;
     text-align: center;
   }
+
+.header-left p{
+    display: flex;
+    justify-content: center;
+    width: 80px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    margin-left: 22px;
+    border: solid rgb(0, 0, 0) 2px;
+    cursor: pointer;
+}  
 
 .div_container_center {
     display: flex;

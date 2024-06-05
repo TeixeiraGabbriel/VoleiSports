@@ -1,7 +1,7 @@
 /* Tela-Desenho */
 
 body {
-    background-image: url(../assets/imgs/box_comentario.gif);
+    background-image: url();
     background-size: cover; 
     background-repeat: no-repeat;
 }
@@ -13,35 +13,47 @@ html, body {
   height: 100%;
 }
 
-.div_container_desenho {
+.personagem-titulo h1{
+  text-align: center;
+  font-size: 50px;
+  background: linear-gradient(to right, #ff6f00 0%, #ff6f00 50%, #000000 50%, #000000 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hinata h2{
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  margin-top: 10px;
+  color: #ff6f00;
+  font-size: 35px;
 }
 
-.div_container_cards {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 8px;
-  border: 1px solid rgb(210, 210, 210);
-  color: inherit;
-  gap: 8px;
-  flex-direction: column;
-  padding: 16px;
-  text-decoration: none;  
-  position: relative;
-  width: 250px;
-}
-
-.div_container_cards img{
+.personagens {
   display: flex;
-  border: solid 2px black;
-  width: 120px;
-  padding: 8px;
-  margin: 0 2px 2px;
-  height: 90%;
-  border-radius: 5px;
+  margin-top: 50px;
 }
-  
+
+.personagens img{
+  width: 270px;
+  margin-left: 370px;
+}
+.personagens p{
+  font-size: 25px;
+  margin-top: 70px;
+  color: #ff6f00;
+}
+
+.seta button{
+  border: none; /* Remove a borda do botão */
+  background: none; /* Remove o fundo do botão */
+  padding: 0; /* Remove o preenchimento interno do botão */
+  cursor: pointer; /* Define o cursor como ponteiro para indicar que é clicável */
+  outline: none; /* Remove o contorno ao focar */
+}
+
+.seta img {
+  width: 100px; /* Ajuste a largura da imagem conforme necessário */
+  height: auto; /* Mantém a proporção da imagem */
+}

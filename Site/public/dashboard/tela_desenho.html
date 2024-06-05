@@ -4,50 +4,160 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VoleiSportsDesenho</title>
+    <style>
+        
+    </style>
 
     <link rel="stylesheet" href="../css/tela_desenho.css">
 </head>
 <body>
-
-    <div class="div_container_desenho">
-
-        <div class="div_container_cards">
-            <a href="cena1.html">
-                 <img src="../assets/imgs/shopping.png" alt="">
-                </a>
-        </div>
-         
-        <div class="div_container_cards">
-            <a href="">
-                 <img src="../assets/imgs/shopping.png" alt="">
-                </a>
-        </div>
-
-        <div class="div_container_cards">
-            <a href="">
-                 <img src="../assets/imgs/shopping.png" alt="">
-                </a>
-        </div>
-
-        <div class="div_container_cards">
-            <a href="">
-                 <img src="../assets/imgs/shopping.png" alt="">
-                </a>
-        </div>
-
-        <div class="div_container_cards">
-            <a href="">
-                 <img src="../assets/imgs/shopping.png" alt="">
-                </a>
-        </div>
-
-        <div class="div_container_cards">
-            <a href="">
-                 <img src="../assets/imgs/shopping.png" alt="">
-                </a>
-        </div>
+    <div class="personagem-titulo">
+        <h1>Personagens</h1>
     </div>
-    
-    
+
+    <div id="1" class="hinata">
+        <h2>Shoyo Hinata</h2>
+    </div>
+    <div class="personagens">
+        <img src="../assets/imgs/haikyuu/hinata.png">
+       <p>
+            Idade: <br>
+            Altura: <br>
+            Salto: <br>
+            Posição: <br>
+           <div class="seta">
+            <button onclick="proximo()"><img src="../assets/imgs/haikyuu/seta_proximo.png"></button>
+           </div>
+       </p>
+    </div>
+
+    <div id="2" class="hinata" style="display: none;">
+        <h2>Tobio Kageyama</h2>
+    <div class="personagens">
+        <img src="../assets/imgs/haikyuu/hinata.png" alt="">
+       <p>
+            Idade: <br>
+            Altura: <br>
+            Salto: <br>
+            Posição: <br>
+           <div class="seta">
+            <button onclick="proximo()"><img src="../assets/imgs/haikyuu/seta_proximo.png"></button>
+           </div>
+       </p>
+    </div>
+</div>
+
+    <div id="3" class="hinata" style="display: none;">
+        <h2>Ryunosuke Tanaka</h2>
+    <div class="personagens">
+        <img src="../assets/imgs/haikyuu/hinata.png" alt="">
+       <p>
+            Idade: <br>
+            Altura: <br>
+            Salto: <br>
+            Posição: <br>
+           <div class="seta">
+            <button onclick="proximo()"><img src="../assets/imgs/haikyuu/seta_proximo.png"></button>
+           </div>
+       </p>
+    </div>
+</div>
+
+    <div id="4" class="hinata" style="display: none;">
+        <h2>Yu Nishinoya</h2>
+    <div class="personagens">
+        <img src="../assets/imgs/haikyuu/hinata.png" alt="">
+       <p>
+            Idade: <br>
+            Altura: <br>
+            Salto: <br>
+            Posição: <br>
+           <div class="seta">
+            <button onclick="proximo()"><img src="../assets/imgs/haikyuu/seta_proximo.png"></button>
+           </div>
+       </p>
+    </div>
+</div>
+
+    <div id="5" class="hinata" style="display: none;">
+        <h2>Key Tsukishima</h2>
+    <div class="personagens">
+        <img src="../assets/imgs/haikyuu/hinata.png" alt="">
+       <p>
+            Idade: <br>
+            Altura: <br>
+            Salto: <br>
+            Posição: <br>
+           <div class="seta">
+            <button onclick="proximo()"><img src="../assets/imgs/haikyuu/seta_proximo.png"></button>
+           </div>
+       </p>
+    </div>
+</div>
+
+    <div id="6" class="hinata" style="display: none;">
+        <h2>Asahi Azumane</h2>
+    <div class="personagens">
+        <img src="../assets/imgs/haikyuu/hinata.png" alt="">
+       <p>
+            Idade: <br>
+            Altura: <br>
+            Salto: <br>
+            Posição: <br>
+           <div class="seta">
+            <button onclick="proximo()"><img src="../assets/imgs/haikyuu/seta_proximo.png"></button>
+           </div>
+       </p>
+    </div>
+</div>
+
+    <div id="7" class="hinata" style="display: none;">
+        <h2>Daichi Sawamura</h2>
+    <div class="personagens">
+        <img src="../assets/imgs/haikyuu/hinata.png" alt="">
+       <p>
+            Idade: <br>
+            Altura: <br>
+            Salto: <br>
+            Posição: <br>
+           <div class="seta">
+            <button onclick="proximo()"><img src="../assets/imgs/haikyuu/seta_proximo.png"></button>
+           </div>
+       </p>
+    </div>
+</div>
+
+    <div id="8" class="hinata" style="display: none;">
+        <h2>Koshi Sugawara</h2>
+    <div class="personagens">
+        <img src="../assets/imgs/haikyuu/hinata.png" alt="">
+       <p>
+            Idade: <br>
+            Altura: <br>
+            Salto: <br>
+            Posição: <br>
+           <div class="seta">
+            <button onclick="proximo()"><img src="../assets/imgs/haikyuu/seta_proximo.png"></button>
+           </div>
+       </p>
+    </div>
+</div>
+
 </body>
 </html>
+<script>
+    var indiceAtual = 1; // Começa com o primeiro personagem
+
+    function proximo() {
+        // Esconde o personagem atual
+        document.getElementById(indiceAtual).style.display = "none";
+        // Incrementa o índice
+        indiceAtual++;
+        // Se atingiu o último personagem, volta ao primeiro
+        if (indiceAtual > 8) {
+            indiceAtual = 1;
+        }
+        // Exibe o próximo personagem
+        document.getElementById(indiceAtual).style.display = "block";
+    }
+</script>
