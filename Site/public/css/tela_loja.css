@@ -95,3 +95,19 @@ html, body {
     width: 100%;
 }
 
+.voltar {
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+  }
+  .voltar button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px 20px;
+    background-color: #004883; /* Cor de fundo */
+    color: white; /* Cor do texto */
+    border-radius: 5px;
+    width: 130px;
+  }

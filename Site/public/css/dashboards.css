@@ -140,33 +140,25 @@ body {
 }
 
 .quadro_pai img{
-  width: 200px;
-  height: 200px;
+  width: 350px;
+  height: 350px;
   border-radius: 5px;
 }
 
 .quadro_loja {
-  width: 200px;
-  height: 200px;
+  width: 350px;
+  height: 350px;
   border: solid black 2px;
   border-radius: 5px;
   box-shadow: 10px 5px 5px rgb(124, 176, 212);
 }
 
 .quadro_haikyuu {
-  width: 200px;
-  height: 200px;
+  width: 350px;
+  height: 350px;
   border: solid black 2px;
   border-radius: 5px;
   box-shadow: 10px 5px 5px rgb(143, 153, 247);
-}
-
-.quadro_jogo {
-  width: 200px;
-  height: 200px;
-  border: solid black 2px;
-  border-radius: 5px;
-  box-shadow: 10px 5px 5px rgb(27, 38, 46);
 }
 
 /* pagina graficos */
