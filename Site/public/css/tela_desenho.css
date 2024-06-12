@@ -10,7 +10,7 @@ html, body {
 }
 
 body {
-  background: linear-gradient(135deg, #007bff, #ff9f40);
+  background: linear-gradient(to bottom right, #FF6F61, #2541B2); 
 }
 
 
@@ -39,13 +39,13 @@ body {
 .personagens img{
   width: 270px;
   margin-left: 370px;
+  margin-bottom: 15px;
 }
 .personagens p{
   font-size: 25px;
   margin-top: 70px;
   color: #000000;
 }
-
 
 .seta {
   position: absolute;
@@ -65,7 +65,7 @@ body {
 
 .voltar {
   position: absolute;
-  left: 20px;
+  right: 20px;
   top: 20px;
 }
 .voltar button {
@@ -81,15 +81,21 @@ body {
 }
 
 .footer {
-  position: fixed;
   bottom: 0;
   left: 0;
   width: 100%;
-  height: 200px; /* Altura do footer */
+  height: 150px; /* Altura do footer */
 }
 
 .footer video{
-  width: 100%;
-  height: 100%;
   object-fit: cover; 
+  position: fixed;
+  bottom: 10px; /* Posição do canto inferior */
+  right: 10px; /* Posição do canto esquerdo */
+  width: 350px; /* Largura do vídeo */
+  height: auto; /* Altura ajustável */
+}
+
+.container_personagens {
+  margin-bottom: 20px;
 }

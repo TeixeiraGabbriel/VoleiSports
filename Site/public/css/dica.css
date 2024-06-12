@@ -1,0 +1,59 @@
+/* dica.css */
+
+/* Adiciona margem entre as div */
+.div_ataque,
+.div_manchete,
+.div_levantamento {
+    margin-bottom: 20px; /* Altere o valor conforme necessário */
+}
+
+/* Aplica o fundo gradiente relacionado ao vôlei */
+body {
+    background: linear-gradient(to bottom right, #FF6F61, #2541B2); /* Cores de exemplo, sinta-se livre para ajustar */
+    color: white; /* Altera a cor do texto para branco para melhor legibilidade */
+}
+
+/* Estiliza as div */
+.div_ataque,
+.div_manchete,
+.div_levantamento {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente para melhor legibilidade do texto */
+}
+
+/* Estiliza os títulos das div */
+h2 {
+    margin-top: 0;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* dica.css */
+
+.div_ataque p,
+.div_manchete p,
+.div_levantamento p {
+    font-size: 16px; /* Tamanho da fonte */
+    line-height: 1.5; /* Espaçamento entre linhas */
+}
+
+.voltar {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+  }
+  .voltar button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px 20px;
+    background-color: #d10000; /* Cor de fundo */
+    color: white; /* Cor do texto */
+    border-radius: 5px;
+    width: 115px;
+  }

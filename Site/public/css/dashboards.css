@@ -136,26 +136,34 @@ body {
   display: flex;
   justify-content: space-evenly;
   flex-direction: row;
-  margin-top: 190px;
+  margin-top: 150px;
 }
 
 .quadro_pai img{
-  width: 350px;
-  height: 350px;
+  width: 250px;
+  height: 250px;
   border-radius: 5px;
 }
 
 .quadro_loja {
-  width: 350px;
-  height: 350px;
+  width: 250px;
+  height: 250px;
   border: solid black 2px;
   border-radius: 5px;
   box-shadow: 10px 5px 5px rgb(124, 176, 212);
 }
 
 .quadro_haikyuu {
-  width: 350px;
-  height: 350px;
+  width: 250px;
+  height: 250px;
+  border: solid black 2px;
+  border-radius: 5px;
+  box-shadow: 10px 5px 5px rgb(143, 153, 247);
+}
+
+.quadro_dica {
+  width: 250px;
+  height: 250px;
   border: solid black 2px;
   border-radius: 5px;
   box-shadow: 10px 5px 5px rgb(143, 153, 247);
@@ -297,12 +305,6 @@ body {
   margin: 20px;
 }
 
-.temperatura,
-.umidade {
-  margin: 5px;
-  margin-left: 20px;
-  width: 75%;
-}
 
 .cor-alerta {
   width: 13%;
@@ -373,7 +375,7 @@ body {
 }
 
 canvas {
-  width: 70% !important;
+  width: 80% !important;
   height: 70% !important;
 }
 
